@@ -55,12 +55,16 @@ p {
 }
 
 section {
-    height: 100vh;
-    margin: auto;
+    max-height: 1400px;
+    overflow: auto;
 }
 
 
 /** Intro **/
+
+.intro-section {
+    margin-top: 20%;
+}
 
 #name {
     color: var(--color1);
@@ -82,11 +86,6 @@ section {
     line-height: 29px;
     text-transform: uppercase;
     font-size: 1.5rem;
-}
-
-.intro {
-    margin-top: 20%;
-
 }
 
 /** Portfolio 1 **/
@@ -126,121 +125,39 @@ section {
 
 /** Portfolio 3 **/
 
-#line-1 {
-    border: 1px solid var(--color1);
-    width: 5%;
-    margin-left: 17.2%;
-    margin-top: -4.4%;
-}
-
-#line-2 {
-    border: 1px solid var(--color1);
-    width: 5%;
-    margin-left: 32.7%;
-    margin-top: -3.3%;
-}
-
-#line-3 {
-    border: 1px solid var(--color1);
-    width: 5%;
-    margin-left: 52.1%;
-    margin-top: -3.4%;
-}
-
-#line-4 {
-    border: 1px solid var(--color1);
-    width: 5%;
-    margin-left: 70%;
-    margin-top: -3.2%;
-}
-
-.hr-dashed {
-    border: 1px dashed var(--color1);
-    width: 2%;
-    margin-left: 75%;
-    margin-top: -1.4%;
-}
-
-.map-title {
-    background-color: rgba(58, 189, 176, 0.15) !important;
-    border-radius: 100px;
-    border: 1px solid var(--color1) !important;
-    color: var(--color1) !important;
-    padding: 1.5% 5%;
-    font-size: 25px;
-}
-
-.map-1 {
-    background-color: rgba(58, 189, 176, 0.15) !important;
-    border-radius: 26px;
-    border: 1px solid var(--color1) !important;
-    color: var(--color1) !important;
-    margin-left: 22.2%;
-    margin-top: -5%;
-
-}
-
-.map-2 {
-    background-color: rgba(58, 189, 176, 0.15) !important;
-    border-radius: 26px;
-    border: 1px solid var(--color1) !important;
-    color: var(--color1) !important;
-    margin-left: 37.6%;
-    margin-top: -5%;
-
-}
-
-.map-3 {
-    background-color: rgba(58, 189, 176, 0.15) !important;
-    border-radius: 26px;
-    border: 1px solid var(--color1) !important;
-    color: var(--color1) !important;
-    margin-left: 57.1%;
-    margin-top: -5%;
-
-}
-
-.map {
-    background-color: rgba(58, 189, 176, 0.15) !important;
-    border-radius: 26px;
-    border: 1px solid var(--color1) !important;
-    color: var(--color1) !important;
-}
-
 /** Portfolio 4 **/
-.fourth-section {
-    background-color: var(--color2);
-    color: var(--color4);
-}
-
-.fourth-section p {
-    color: var(--color4);
-}
 
 /** Portfolio 5 **/
-
-
-/** Portfolio 6 **/
-.sixth-section {
+.fifth-section {
     background-color: var(--color2);
     color: var(--color4);
 }
 
-.sixth-section p {
+.fifth-section p {
     color: var(--color4);
 }
 
+/** Portfolio 6 **/
+
 /** Portfolio 7 **/
+
+.seventh-section {
+    background-color: var(--color2);
+    color: var(--color4);
+}
+
+.seventh-section p {
+    color: var(--color4);
+}
+
+/** Portfolio 8 **/
 
 .rustic {
     color: var(--color1);
     font-family: 'Rustico';
 }
 
-
-
-/** Portfolio 8 **/
-
+/** Portfolio 9 **/
 .eighth-section {
     background-color: var(--color2);
     color: var(--color4);
@@ -253,4 +170,9 @@ section {
 .light {
     background-color: var(--color1);
     color: var(--color4);
+}
+
+.rustic {
+    color: var(--color1);
+    font-family: 'Rustico';
 }
