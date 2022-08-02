@@ -55,16 +55,14 @@ p {
 }
 
 section {
-    max-height: 1400px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     overflow: auto;
 }
 
 
 /** Intro **/
-
-.intro-section {
-    margin-top: 20%;
-}
 
 #name {
     color: var(--color1);
@@ -91,7 +89,6 @@ section {
 /** Portfolio 1 **/
 
 .first-section {
-    display: flex;
     justify-content: space-between;
 }
 
