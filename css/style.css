@@ -6,14 +6,6 @@
     --color5: #36BCAE;
 }
 
-.paddingTop {
-    padding-top: 8%;
-}
-
-.paddingMiddle {
-    padding-top: 3%;
-}
-
 @font-face {
     font-family: "SF Pro Display Bold";
     src: url("../fonts/SFProDisplay-Heavy.ttf") format('truetype');
@@ -24,6 +16,20 @@
     font-family: "SF Pro Display";
     src: url("../fonts/SFProDisplay-Regular.ttf")format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display Ultralight Italic";
+    src: url("../fonts/SFProDisplay-UltralightItalic.ttf")format('truetype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SF Pro Display Ultralight";
+    src: url("../fonts/SFProDisplay-Ultralight.ttf")format('truetype');
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -58,11 +64,50 @@ section {
     height: 100vh;
     display: flex;
     align-items: center;
-    overflow: auto;
+    overflow-y: auto;
+    padding: 5% 0 5%;
+}
+
+.container {
+    margin: 0 15% 0 15%;
+    align-content: center;
+}
+.paddingMiddle {
+    padding-top: 3%;
 }
 
 
 /** Intro **/
+.name {
+    font-family: 'SF Pro Display Ultralight';
+}
+.experience {
+    font-family: 'SF Pro Display Ultralight Italic';
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'SF Pro Display';
+    color: #ffffff;
+    font-size: 15px;
+    background: #3ABDB0;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #36BCAE;
+    text-decoration: none;
+  }
+
+  .details{
+    padding-left: 20px;
+    border-left: var(--color1) 3px solid;
+}
+
+
+/** Portfolio 0 **/
 
 #name {
     color: var(--color1);
@@ -88,11 +133,11 @@ section {
 
 /** Portfolio 1 **/
 
-.first-section {
+#first-section {
     justify-content: space-between;
 }
 
-.first-section h1 {
+#first-section h1 {
     font-family: 'SF Pro Display Bold';
 }
 
@@ -102,7 +147,7 @@ section {
 }
 
 /** Portfolio 2 **/
-.second-section {
+#second-section {
     background-color: var(--color2);
     color: var(--color4);
 }
@@ -125,12 +170,12 @@ section {
 /** Portfolio 4 **/
 
 /** Portfolio 5 **/
-.fifth-section {
+#fifth-section {
     background-color: var(--color2);
     color: var(--color4);
 }
 
-.fifth-section p {
+#fifth-section p {
     color: var(--color4);
 }
 
@@ -138,12 +183,12 @@ section {
 
 /** Portfolio 7 **/
 
-.seventh-section {
+#seventh-section {
     background-color: var(--color2);
     color: var(--color4);
 }
 
-.seventh-section p {
+#seventh-section p {
     color: var(--color4);
 }
 
@@ -155,12 +200,12 @@ section {
 }
 
 /** Portfolio 9 **/
-.eighth-section {
+#ninth-section {
     background-color: var(--color2);
     color: var(--color4);
 }
 
-.eighth-section p {
+#ninth-section p {
     color: var(--color4);
 }
 
@@ -170,6 +215,12 @@ section {
 }
 
 .rustic {
-    color: var(--color1);
+    color: var(--color1)!important;
     font-family: 'Rustico';
 }
+
+#ninth-section .data-content {
+    display: flex;
+    justify-content: space-between;
+}
+
