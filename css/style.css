@@ -68,52 +68,16 @@ section {
 }
 
 /* Media Screen * */
-/* @media only screen and (min-width: 960px) {
-    section {
-        height: 100vh;
-    }
-} */
-/* causing error */
-/* @media only screen and (min-width: 1440px) {
-    section {
-        height: 100vh;
-    }
-}
-@media only screen and (min-width: 2000px) {
-    section {
-        height: 100vh;
-    }
-} */
+
 @media only screen and (max-device-width: 480px) {
     #first-section, #second-section, #third-section, #ninth-section {
         height: 145vh;
     }
 
-    /* #intro-section, #zero-section, #fourth-section, #fifth-section, #eigthth-section {
-        height: 100vh !important;
-
-    } */
-
     .width50 {
         max-width: 50%;
     }
 }
-/* @media only screen and (device-width: 768px) {
-    section {
-        height: 100vh;
-    }
-}
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-    section {
-        height: 100vh;
-    }
-}
-
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-    section {
-        height: 100vh;
-    }
-} */
 
 .container {
     margin: 0 15% 0 15%;
