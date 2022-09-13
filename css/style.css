@@ -91,7 +91,8 @@ section {
 
 .experience {
     font-family: 'SF Pro Display Ultralight';
-    font-style: italic;
+    font-style: italic !important;
+    letter-spacing: 1px;
 }
 
 .btn {
