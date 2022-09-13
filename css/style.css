@@ -19,12 +19,12 @@
     font-style: normal;
 }
 
-@font-face {
+/* @font-face {
     font-family: "SF Pro Display Ultralight Italic";
     src: url("../fonts/SFProDisplay-UltralightItalic.ttf")format('truetype');
     font-weight: lighter;
     font-style: italic;
-}
+} */
 
 @font-face {
     font-family: "SF Pro Display Ultralight";
@@ -102,7 +102,8 @@ section {
 }
 
 .experience {
-    font-family: 'SF Pro Display Ultralight Italic';
+    font-family: 'SF Pro Display Ultralight';
+    font-style: italic;
 }
 
 .btn {
